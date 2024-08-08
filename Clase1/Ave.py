@@ -11,7 +11,7 @@ class Ave(Animal):
         edad = 2024-self.Año_Nacimiento
         if edad >= 5:
             print("Mayor de edad")
-        elif edad <4:
+        elif edad <=4:
             print("Menor de edad")     
 
     def __str__(self):
